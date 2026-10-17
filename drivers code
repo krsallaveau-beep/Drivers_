@@ -36,4 +36,3 @@ print("Age Category:", age_category)
 print("Performance:", performance)
 print("Score Type:", score_type)
 print("Recognition:", recognition) 
-oo
