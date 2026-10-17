@@ -1,0 +1,39 @@
+name = input("Enter student name: ")
+school = input("Enter School: ")
+section = input("Section: ")
+subject = input("Subject: ")
+age = input("Enter age: ") 
+score = int(input("Enter score: "))
+
+if age >= 18:
+    age_category = "Adult"
+else:
+    age_category = "Minor"
+
+if score >= 75:
+    performance = "Excellent"
+elif score > 50: 
+    performance = "Good"
+else:
+    performance = "Needs Improvement"
+
+if score % 2 == 0:
+    score_type = "Even"
+else
+    score_type = "Odd" 
+
+if score > 80: 
+    recognition = "QUALIFIED"
+else:
+    recognition = "NOT QUALIFIED"
+
+print("\n--- STUDENT REPORT ---")
+print("Name:", name)
+print("School:", school)
+print("Section:", section)
+print("Subject:", subject)
+print("Age Category:", age_category)
+print("Performance:", performance)
+print("Score Type:", score_type)
+print("Recognition:", recognition) 
+oo
